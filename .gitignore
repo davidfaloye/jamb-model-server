@@ -1,0 +1,19 @@
+# Never commit model weights — they're too large for GitHub
+../models/
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.gguf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+env/
+
+# Logs
+*.log
